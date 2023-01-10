@@ -1,0 +1,290 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  height: 969px;
+  width: 1920px;
+}
+header {
+  display: flex;
+  gap: 248px;
+  padding-top: 32px;
+  margin-bottom: 144px;
+}
+.logo-and-brand-name-cont,
+.left-section {
+  margin-left: 236px;
+}
+.logo-and-brand-name-cont {
+  height: 48px;
+  width: 260px;
+  margin-top: 30px;
+  display: flex;
+  gap: 16px;
+}
+.logo-and-brand-name-cont img {
+  width: 48px;
+  height: 48px;
+}
+.logo-and-brand-name-cont .brand-cont {
+  height: 32px;
+  width: 196px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #3c2c20;
+  line-height: 32px;
+  padding-top: 8px;
+}
+.input-section {
+  height: 112px;
+  width: 971px;
+  position: relative;
+}
+.input-fields {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 16px;
+}
+.email-section label,
+.password-section label {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+  margin-bottom: 8px;
+}
+.email-section input,
+.password-section input {
+  height: 48px;
+  width: 374px;
+  left: 0px;
+  top: 24px;
+  border-radius: 8px;
+  padding: 16px;
+  border: 1px solid #c1a28b;
+}
+*:focus {
+  outline: none;
+}
+.email-section input::placeholder {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.login-btn {
+  height: 48px;
+  width: 175px;
+  left: 796px;
+  top: 24px;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 24px;
+  background: linear-gradient(270deg, #fb6564 0%, #a03cea 100%);
+  border-radius: 8px;
+  border: none;
+}
+.forgot-password-link {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3c2c20;
+  margin-left: 398px;
+}
+.dot-frame {
+  position: absolute;
+  top: 41px;
+  left: 412px;
+}
+.eye-icon {
+  position: absolute;
+  right: 211px;
+  bottom: 59px;
+}
+.section-container {
+  display: flex;
+  gap: 297px;
+  margin-bottom: 157px;
+}
+.left-section {
+  height: 337px;
+  width: 625px;
+}
+.left-sec-heading-cont {
+  margin-bottom: 40px;
+}
+.left-sec-heading-cont p {
+  width: 625px;
+  height: 48px;
+  font-weight: 600;
+  font-size: 48px;
+  margin-bottom: 24px;
+  font-family: "Sora";
+}
+.left-sec-heading-cont span {
+  width: 490px;
+  height: 20px;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Sora";
+}
+.recent-logins {
+  height: 200px;
+  width: 500px;
+}
+.recent-logins p {
+  height: 18px;
+  width: 130px;
+  font-family: "Sora";
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.logins-cont {
+  display: flex;
+  gap: 16px;
+}
+.recent-login-1,
+.recent-login-2 {
+  height: 158px;
+  width: 156px;
+  border-radius: 16px;
+  border: 1px solid #c1a28b;
+}
+
+.image-name-cont {
+  padding: 24px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.image-name-cont span {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #3c2c20;
+}
+.recent-login-3 {
+  height: 158px;
+  width: 156px;
+}
+.add-user-cont {
+  background-color: #f1eae4;
+  border-radius: 16px;
+  border: 1px solid #c1a28b;
+}
+.user-image {
+  width: 80px;
+  height: 80px;
+}
+.right-section {
+  height: 318px;
+  width: 478px;
+}
+.right-sec-heading-cont {
+  height: 120px;
+  width: 478px;
+  margin-bottom: 48px;
+}
+.primary-heading {
+  height: 84px;
+  width: 347px;
+  margin-bottom: 16px;
+}
+.primary-heading p {
+  font-family: "Inter";
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #3c2c20;
+}
+.secondary-heading {
+  height: 20px;
+  width: 478px;
+}
+.secondary-heading p {
+  font-family: "Sora";
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.sign-in-button {
+  width: 374px;
+  height: 56px;
+  padding: 16px;
+  border-radius: 8px;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(270deg, #fb6564 0%, #a03cea 100%);
+  line-height: 20px;
+  color: white;
+  margin-bottom: 24px;
+  border: none;
+}
+.sign-in-and-social-info {
+  height: 150px;
+  width: 374px;
+}
+.social-sites-sec p {
+  width: 374px;
+  height: 16px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.btn {
+  width: 114px;
+  height: 38px;
+  border-radius: 4px;
+  border: none;
+  border: 1px solid #afa2c3;
+  background-color: white;
+}
+.sites {
+  display: flex;
+  gap: 16px;
+}
+.facebook-btn span,
+.linked-in-btn span,
+.google-btn span {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #3e334e;
+}
+footer {
+  height: 192px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    linear-gradient(270deg, #fb6564 0%, #a03cea 100%);
+}
